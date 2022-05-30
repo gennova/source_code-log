@@ -1,0 +1,19 @@
+SERVICE : /transfer/inquiry
+  INCOMING :
+    REQUEST TIME : 2022-05-18 21:49:48.443
+    REQUEST HEADER :
+      Accept : application/json
+      Authorization : eyAidHlwIjogImp3dCIsICJhbGciOiAiUlMyNTYiIH0
+      Content-Type : application/json
+      Accept-Charset : UTF-8
+      Content-Length : 188
+      User-Agent : Dalvik/2.1.0 (Linux; U; Android 11; M2101K7BNY Build/RP1A.200720.011)
+      Host : abc.transfer.com
+      Connection : Keep-Alive
+      X-Forwarded-For : 10.122.1.114
+    REQUEST BODY :
+     {"ipAddress":"10.122.1.144","amount":"500000","adminFee":"7500","bankDestinantionCode":"014","toAccount":"4755321"}
+  OUTGOING :
+    RESPONSE TIME : 2022-05-18 21:49:48.787
+    RESPONSE BODY :
+    {"httpStatusCode":"404"}
